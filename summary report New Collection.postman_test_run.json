@@ -1,0 +1,256 @@
+{
+	"id": "99ce1dd8-b7d1-4afe-aac6-0d02c151b0c1",
+	"name": "New Collection",
+	"timestamp": "2022-04-16T09:34:33.095Z",
+	"collection_id": "19954828-d4b23b06-f17d-440a-9f34-2ce4bedd62e0",
+	"folder_id": 0,
+	"environment_id": "19954828-53b7aa7c-d112-4735-a888-57d3bcdde422",
+	"totalPass": 23,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7713ef15-2c19-477f-b1ba-02884a57fed2",
+			"name": "getAllUsers",
+			"url": "https://resume-filter-backend-urtjok3rza-wl.a.run.app/resume/signup",
+			"time": 423,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response time is less than 500ms": true,
+				"Status code name has string": true,
+				"Status code is 201": true,
+				"Successful POST request": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				423
+			],
+			"allTests": [
+				{
+					"Response time is less than 500ms": true,
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Successful POST request": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "1b56fbeb-ac49-498e-8c26-9f808c3dc65e",
+			"name": "getAllRecruitment",
+			"url": "https://resume-filter-backend-urtjok3rza-wl.a.run.app/resume/signup",
+			"time": 362,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 500ms": true,
+				"Schema Validated": true,
+				"Content-Type is present": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema Validated": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				362
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 500ms": true,
+					"Schema Validated": true,
+					"Content-Type is present": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "dc4851fe-234a-4d4f-a5fa-b3256ee074bb",
+			"name": "getAllRecruitment",
+			"url": "https://resume-filter-backend-urtjok3rza-wl.a.run.app/resume/getRecruitment",
+			"time": 1100,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than  2000ms": true,
+				"Status code name has string": true,
+				"Schema Validated": true,
+				"Content-Type is present": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than  2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema Validated": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1100
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than  2000ms": true,
+					"Status code name has string": true,
+					"Schema Validated": true,
+					"Content-Type is present": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "c19673b8-3d9a-447d-acba-9efb0ae47291",
+			"name": "checkScore",
+			"url": "https://resume-filter-backend-urtjok3rza-wl.a.run.app/resume/checkScore?rec_id=3",
+			"time": 306,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true,
+				"Successful POST request": true,
+				"Status code name has string": true,
+				"Content-Type is present": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				306
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Content-Type is present": true,
+					"Body matches string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2191,
+	"collection": {
+		"requests": [
+			{
+				"id": "7713ef15-2c19-477f-b1ba-02884a57fed2",
+				"method": "POST"
+			},
+			{
+				"id": "1b56fbeb-ac49-498e-8c26-9f808c3dc65e",
+				"method": "GET"
+			},
+			{
+				"id": "dc4851fe-234a-4d4f-a5fa-b3256ee074bb",
+				"method": "GET"
+			},
+			{
+				"id": "c19673b8-3d9a-447d-acba-9efb0ae47291",
+				"method": "GET"
+			}
+		]
+	}
+}
